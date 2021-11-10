@@ -23,5 +23,5 @@ function keyDown(){
 }
 function search(){
     var x = document.getElementById("myInput");
-    document.getElementById("demo").innerHTML = "Estas buscando: " + x.value;
+    document.getElementById("demo1").innerHTML = "Estas buscando: " + x.value;
 }
