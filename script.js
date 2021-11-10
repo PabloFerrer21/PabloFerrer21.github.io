@@ -25,6 +25,9 @@ function search(){
     var x = document.getElementById("myInput");
     document.getElementById("demo1").innerHTML = "Estas buscando: " + x.value;
 }
-document.getElementById("myBtn").addEventListener("click",function(){
-    alert("Hello Wold");
-});
+var archivo = document.getElementById("myBtn");
+if(archivo){
+    archivo.addEventListener("click", function(){
+        alert("Hello Wold");
+    });
+}
