@@ -25,3 +25,6 @@ function search(){
     var x = document.getElementById("myInput");
     document.getElementById("demo1").innerHTML = "Estas buscando: " + x.value;
 }
+document.getElementById("myBtn").addEventListener("click",function(){
+    alert("Hello Wold");
+})
