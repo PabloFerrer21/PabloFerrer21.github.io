@@ -21,3 +21,7 @@ function mUp(obj) {
 function keyDown(){
     alert("Le has dado a una tecla");
 }
+function search(){
+    var x = document.getElementById("myInput");
+    document.getElementById("demo").innerHTML = "Estas buscando: " + x.value;
+}
