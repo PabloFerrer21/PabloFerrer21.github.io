@@ -18,3 +18,6 @@ function mUp(obj) {
   obj.style.backgroundColor="#D94A38";
   obj.innerHTML="Thank You";
 }
+function keyDown(){
+    alert("Le has dado a una tecla");
+}
