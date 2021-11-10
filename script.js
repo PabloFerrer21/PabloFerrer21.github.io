@@ -10,11 +10,12 @@ function mOver(obj){
 function mOut(obj){
     obj.innerHTML="Pon el cursor encima";
 }
-function mDown(obj){
-    obj.style.backgroundColor= "#D94A38";
-    obj.innerHTML= "Sueltame";
+function mDown(obj) {
+  obj.style.backgroundColor = "#1ec5e5";
+  obj.innerHTML = "Release Me";
 }
-function mUP(obj){
-    obj.style.backgroundColor= "1ec5ec";
-    obj.innerHTML="Muchas Gracias";
+
+function mUp(obj) {
+  obj.style.backgroundColor="#D94A38";
+  obj.innerHTML="Thank You";
 }
