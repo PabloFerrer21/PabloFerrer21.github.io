@@ -27,4 +27,4 @@ function search(){
 }
 document.getElementById("myBtn").addEventListener("click",function(){
     alert("Hello Wold");
-})
+});
