@@ -5,8 +5,8 @@ function displayDate(){
 document.getElementById("demo").innerHTML=Date();
 }
 function mOver(obj){
-    obj.innerHTML = "MUCHAS GRACIAS"
+    obj.innerHTML = "MUCHAS GRACIAS";
 }
 function mOut(obj){
-    obj.innerHTML="Pon el cursor encima"
+    obj.innerHTML="Pon el cursor encima";
 }
