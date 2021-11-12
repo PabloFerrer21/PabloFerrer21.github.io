@@ -34,3 +34,7 @@ if(archivo){
         alert("Hello Wold");
     });
 }
+
+function loadImage(){
+    alert("Image is loaded");
+}
