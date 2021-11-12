@@ -37,13 +37,11 @@ function loadImage(){
 }
 
 function hanFetClick(){
-    var x = document.getElementById("boton");
-    var y = document.getElementById("imagen");
     if(x){
-        document.getElementById("boton").innerHTML = "Boton Pulsado";
-    }
-    if(y){
-        document.getElementById("imagen").innerHTML="Imagen Pulsada";
-    }
-    
+        document.getElementById("1").innerHTML = "Boton Pulsado";
+    }else{
+       if(y){
+        document.getElementById("2").innerHTML="Imagen Pulsada";
+    } 
+    }    
 }
