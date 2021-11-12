@@ -45,7 +45,7 @@ function hanFetClick(){
         });
     }else if(y){
             y.addEventListener("click", function(){
-                document.getElementById("1").innerHTML="Imagen Pulsada";
+                document.getElementById("2").innerHTML="Imagen Pulsada";
             })
 
         }    
