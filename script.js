@@ -43,12 +43,10 @@ function hanFetClick(){
         x.addEventListener("click" , function(){
             document.getElementById("1").innerHTML="Boton Pulsado";
         });
-    }else{
-        if(y){
+    }else if(y){
             y.addEventListener("click", function(){
                 document.getElementById("1").innerHTML="Imagen Pulsada";
             })
 
-        }
-    }
+        }    
 }
