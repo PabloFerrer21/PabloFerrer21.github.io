@@ -1,6 +1,3 @@
-function myFunction(){
-    alert("Pagina Cargada");
-}
 function changeText(id){
     id.innerHTML="OK";
 }
