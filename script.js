@@ -41,12 +41,11 @@ function hanFetClick(){
     var y = document.getElementById("imagen");
     if(x){
         x.addEventListener("click" , function(){
-            document.getElementById("1").innerHTML="Boton Pulsado";
+            alert("Boton Pulsado");
         });
     }else if(y){
-            y.addEventListener("click", function(){
-                document.getElementById("2").innerHTML="Imagen Pulsada";
-            })
-
-        }    
+        y.addEventListener("click", function(){
+            alert("Imagen Pulsada");
+        });
+    }
 }
