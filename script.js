@@ -35,3 +35,19 @@ if(archivo){
 function loadImage(){
     alert("Image is loaded");
 }
+
+function hanFetClick(){
+    var x = document.getElementById("boton");
+    var y = document.getElementById("imagen");
+    if(x){
+        x.addEventListener("click" , function(){
+            alert("Boton Pulsado");
+        });
+    }else{
+        if(y){
+            y.addEventListener("click", function(){
+                alert("Imagen Pulsada");
+            });
+        }
+    }
+}
