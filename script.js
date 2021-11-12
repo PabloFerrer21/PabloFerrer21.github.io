@@ -40,12 +40,15 @@ function hanFetClick(){
     var x = document.getElementById("boton");
     var y = document.getElementById("imagen");
     if(x){
-        document.getElementById("1").innerHTML = "Boton Pulsado";
+        x.addEventListener("click" , function(){
+            document.getElementById("1").innerHTML="Boton Pulsado";
+        });
     }else{
         if(y){
-        document.getElementById("2").innerHTML="Imagen Pulsada";
+            y.addEventListener("click", function(){
+                document.getElementById("1").innerHTML="Imagen Pulsada";
+            })
+
         }
     }
-    
-    
 }
