@@ -25,12 +25,11 @@ function search(){
     var x = document.getElementById("myInput");
     document.getElementById("demo1").innerHTML = "Estas buscando: " + x.value;
 }
-var archivo = document.getElementById("myBtn");
-if(archivo){
-    archivo.addEventListener("click", function(){
-        alert("Hello Wold");
-    });
-}
+
+document.getElementById("myBtn").addEventListener("click", function(){
+    alert("Muy buenas mundo :) ");
+});
+
 
 function loadImage(){
     alert("Image is loaded");
