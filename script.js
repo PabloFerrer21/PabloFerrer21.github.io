@@ -26,9 +26,9 @@ function search(){
     document.getElementById("demo1").innerHTML = "Estas buscando: " + x.value;
 }
 
-document.getElementById("myBtn").addEventListener("click", function(){
-    alert("Muy buenas mundo :) ");
-});
+document.getElementById("myBtn").addEventListener("click", function() {
+	alert("HOLA MI QUERIDO MUNDO");
+})
 
 
 function loadImage(){
