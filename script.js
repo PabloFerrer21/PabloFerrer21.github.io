@@ -43,4 +43,6 @@ function hanFetClick(){
     alert("IMAGEN");
     })
 }
-
+function añadir() {
+    document.getElementById("prueba").innerHTML="CORRER";
+    }
