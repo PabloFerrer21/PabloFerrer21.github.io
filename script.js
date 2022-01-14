@@ -36,11 +36,11 @@ function loadImage(){
 }
 
 function hanFetClick(){
-    document.getElementById("boton").addEventListener("click", function(){
-        alert("BOTON");
+    document.getElementById("boton").addEventListener("click",function(){
+    alert("BOTON");
     });
     document.getElementById("imagen").addEventListener("click",function(){
-        alert("IMAGEN");
+    alert("IMAGEN");
     })
 }
 
