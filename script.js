@@ -46,3 +46,17 @@ function hanFetClick(){
 function añadir() {
     document.getElementById("prueba").innerHTML="CORRER";
     }
+function timeour(){
+    document.getElementById("timeout").innerHTML = "MUY BUENAS"
+}
+
+const myTimeout = setTimeout(timeour, 5000);
+function timeour(){
+document.getElementById("timeout").innerHTML = "MUY BUENAS"
+}
+function myStopFunction(){
+clearTimeout(myTimeout)
+}
+
+const element = document.getElementById("interval");
+setInterval(function() { element.innerHTML +="NO PARO "}, 1000);
